@@ -121,6 +121,7 @@ input, select, textarea {
 		font-size: 16.5pt;
 		font-weight: normal;
 		line-height: 1.75;
+		width: 100%;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -3882,8 +3883,9 @@ input, select, textarea {
 		background-size: 100% 100%;
 		margin-left: 0px;
 		padding-left: 50px;
-		background-color: rgba(65, 41, 128);
-		/*background-color: rgba(255, 255, 255);*/
+		/*background-color: rgba(65, 41, 128);*/
+		background-color: rgba(255, 255, 255);
+		color: rgba(0,0,0);
 		
 	}
 
