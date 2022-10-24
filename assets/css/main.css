@@ -98,7 +98,8 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		/*background: #312450;*/
+		background: rgba(115,82,194,1.00);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -112,13 +113,21 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/webfonts/Poppins-Thin.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('assets/webfonts/Poppins-Thin.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}  
+
 /* Type */
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.55);
-		font-family: Arial, Helvetica, sans-serif;
-		/*font-family: 'Poppins', Helvetica, sans-serif;*/
+		/*color: rgba(255, 255, 255, 0.55);*/
+		color: rgba(0,0,0);
+		/*font-family: Arial, Helvetica, sans-serif;*/
+		font-family: Poppins;
 		font-size: 16.5pt;
+		/*font-size: 28.5pt;*/
 		font-weight: normal;
 		line-height: 1.75;
 		width: 100%;
@@ -127,7 +136,8 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
-				font-size: 13pt;
+				/*font-size: 13pt;*/
+				font-size: 16pt;
 			}
 
 		}
@@ -135,7 +145,8 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				/*font-size: 12pt;*/
+				font-size: 15pt;
 			}
 
 		}
@@ -143,7 +154,8 @@ input, select, textarea {
 		@media screen and (max-width: 360px) {
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				/*font-size: 11pt;*/
+				font-size: 14pt;
 			}
 
 		}
@@ -160,7 +172,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #ffffff;
+			color: /*#ffffff;*/#0000008c;
 		}
 
 	strong, b {
@@ -178,7 +190,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
-		font-weight: bold;
+		font-weight: normal;
 		line-height: 1.5;
 		margin: 0 0 0.5em 0;
 	}
@@ -1833,7 +1845,7 @@ input, select, textarea {
 		-webkit-transition: border-color 0.2s ease;
 		-ms-transition: border-color 0.2s ease;
 		transition: border-color 0.2s ease;
-		background-color: transparent;
+		background-color: rgba(115,82,194,1.00);
 		border: solid 1px !important;
 		border-color: rgba(255, 255, 255, 0.15) !important;
 		border-radius: 3em;
@@ -3373,7 +3385,8 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		/*background-color: #5e42a6;*/
+		background-color: rgba(115,82,194,1.00);
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3412,7 +3425,8 @@ input, select, textarea {
 
 					#header > nav > ul > li a {
 						border: 0;
-						color: rgba(255, 255, 255, 0.35);
+						/*color: rgba(255, 255, 255, 0.35);*/
+						color: rgba(255, 255, 255);
 						display: inline-block;
 						font-size: 0.6em;
 						font-weight: bold;
@@ -3421,6 +3435,7 @@ input, select, textarea {
 					}
 
 						#header > nav > ul > li a:hover {
+							/*color: rgba(255, 255, 255, 0.55);*/
 							color: rgba(255, 255, 255, 0.55);
 						}
 
@@ -3527,7 +3542,8 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		/*background: #312450;*/
+		background: rgba(115,82,194,1.00);
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3740,7 +3756,8 @@ input, select, textarea {
 			-ms-transition: color 0.2s ease;
 			transition: color 0.2s ease;
 			border: 0;
-			color: rgba(255, 255, 255, 0.35);
+			/*color: rgba(255, 255, 255, 0.35);*/
+			color: rgba(255,255,255);
 			display: block;
 			font-size: 0.6em;
 			font-weight: bold;
@@ -3784,7 +3801,7 @@ input, select, textarea {
 			}
 
 			#sidebar nav a.active {
-				color: #ffffff;
+				color: rgba(0, 0, 0);
 			}
 
 				#sidebar nav a.active:after {
@@ -3882,10 +3899,13 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 		margin-left: 0px;
-		padding-left: 50px;
+		padding-left: 120px;
+		padding-right: 120px;
 		/*background-color: rgba(65, 41, 128);*/
 		background-color: rgba(255, 255, 255);
 		color: rgba(0,0,0);
+		/*font-family: TimesNewRoman;*/
+		font-family:  Poppins;
 		
 	}
 
@@ -3932,13 +3952,15 @@ input, select, textarea {
 	}*/
 
 	#two {
-		padding-left: 50px;
-		background-color: rgba(71, 50, 135);
+		padding-left: 120px;
+		padding-right:  120px;
+		background-color: #b39eb5;
+		color: rgba(0,0,0);
 	}
 
-	#sonifi{
+	/*#sonifi{
 		background-color: rgba(88, 99, 189);
-	}
+	}*/
 
 	#derb{
 		background-color: rgba(115,82,194,1.00);
@@ -3953,13 +3975,50 @@ input, select, textarea {
 	}
 
 	#three {
-		padding-left: 50px;
-		background-color: rgba(65, 41, 128);
+		padding-left: 120px;
+		padding-right:  120px;
+		/*background-color: rgba(65, 41, 128);*/
+		background-color: rgba(255, 255, 255);
+		color: rgba(0,0,0);
 	}
+
+	#one{
+		background-color: #bf94e4;
+		color: rgba(0,0,0);
+	}
+
+	#four{
+		background-color: #6495ED;
+		color: rgba(0,0,0);
+	}
+
+	#main{
+		background-color: #bf94e4;
+		padding-left: 120px;
+		padding-right: 120px;
+	}
+
+	#class_main{
+		background-color: #6495ED;
+		padding-left: 120px;
+		padding-right: 120px;
+	}
+
+	
+	#data_son,#emot_reg,#verb_app,#dark_pat{
+		/*padding-left: 100px;
+		padding-right:  100px;*/
+		color: rgba(0,0,0);
+	}
+	
 
 	#footer{
 		background-color: rgba(65, 41, 128);
 	}
+
+	/*.link{
+		color: #0000008c;
+	}*/
 
 
 
@@ -4158,3 +4217,4 @@ input, select, textarea {
 				.buttonn:hover:active:after {
 					opacity: 0.1;
 				}
+
