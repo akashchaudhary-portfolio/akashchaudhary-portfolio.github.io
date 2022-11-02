@@ -3252,6 +3252,47 @@ input, select, textarea {
 
 			}
 
+		\\inner1
+
+		.wrapper {
+		position: relative;
+	}
+
+		.wrapper > .inner1 {
+			padding: 5em 5em 3em 5em ;
+			max-width: 100%;
+			width: 75em;
+		}
+
+			@media screen and (max-width: 1680px) {
+
+				.wrapper > .inner1 {
+					padding: 4em 4em 2em 4em ;
+				}
+
+			}
+
+			@media screen and (max-width: 1280px) {
+
+				.wrapper > .inner1 {
+					width: 100%;
+				}
+
+			}
+
+			@media screen and (max-width: 736px) {
+
+				.wrapper > .inner1 {
+					padding: 3em 2em 1em 2em ;
+				}
+
+			}
+
+
+		\\inner1
+
+
+
 		.wrapper.alt {
 			background-color: #261c3e;
 		}
@@ -3337,6 +3378,8 @@ input, select, textarea {
 			opacity: 1.0;
 		}
 
+
+
 		.wrapper.fade-up.inactive > .inner,
 		body.is-preload .wrapper.fade-up > .inner {
 			opacity: 0;
@@ -3345,6 +3388,8 @@ input, select, textarea {
 			-ms-transform: translateY(1em);
 			transform: translateY(1em);
 		}
+
+
 
 		.wrapper.fade-down > .inner {
 			-moz-transform: translateY(0);
@@ -3955,11 +4000,12 @@ input, select, textarea {
 	}*/
 
 	#two {
+		/*background-color: rgba(179,158,181);*/
+		background-color: rgb(205,191,206);
 		padding-left: 120px;
 		padding-right:  120px;
-		background-color: #b39eb5;
-		color: rgba(0,0,0);
 	}
+
 
 	/*#sonifi{
 		background-color: rgba(88, 99, 189);
@@ -3970,12 +4016,13 @@ input, select, textarea {
 	}
 
 	#prjct {
-		padding-left: 50px;
+		padding-left: 120px;
 	}
 
 	#wrk_exp {
-		padding-left: 50px;
+		padding-left: 120px;
 	}
+
 
 	#three {
 		padding-left: 120px;
@@ -3989,6 +4036,7 @@ input, select, textarea {
 		/*background-color: #bf94e4;*/
 		background-color: #ffffff;
 		/*color: rgba(0,0,0);*/
+		
 	}
 
 	#four{
@@ -3998,12 +4046,9 @@ input, select, textarea {
 		/*color: rgba(0,0,0);*/
 	}
 
-	#main{
-		/*background-color: #bf94e4;*/
-		background-color:  #ffffff;
-		padding-left: 120px;
-		padding-right: 120px;
-	}
+	
+
+	
 
 	#class_main{
 		/*background-color: #6495ED;*/
@@ -4036,6 +4081,7 @@ input, select, textarea {
 	/*.link{
 		color: #0000008c;
 	}*/
+
 
 .list-horizontal li {
   display:inline-block;
