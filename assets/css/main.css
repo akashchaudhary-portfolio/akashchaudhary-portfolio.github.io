@@ -4047,7 +4047,12 @@ input, select, textarea {
 	}
 
 	
-
+	#main{
+		/*background-color: #6495ED;*/
+		background-color:  #ffffff;
+		padding-left: 120px;
+		padding-right: 120px;
+	}
 	
 
 	#class_main{
