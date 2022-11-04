@@ -4000,10 +4000,10 @@ input, select, textarea {
 	}*/
 
 	#two {
-		/*background-color: rgba(179,158,181);*/
-		background-color: rgb(205,191,206);
-		padding-left: 120px;
-		padding-right:  120px;
+		/*background-color: rgba(179,158,181);
+		background-color: rgb(205,191,206);*/
+		background-color: rgb(255,255,255,0.9);
+		
 	}
 
 
@@ -4015,11 +4015,15 @@ input, select, textarea {
 		background-color: rgba(115,82,194,1.00);
 	}
 
-	#prjct {
+	#port_prjct {
 		padding-left: 120px;
 	}
 
-	#wrk_exp {
+	#curr_prjct {
+		padding-left: 120px;
+	}
+
+	#class_prjct {
 		padding-left: 120px;
 	}
 
@@ -4034,14 +4038,14 @@ input, select, textarea {
 
 	#one{
 		/*background-color: #bf94e4;*/
-		background-color: #ffffff;
+		background-color: rgb(255,255,255,0.9);
 		/*color: rgba(0,0,0);*/
 		
 	}
 
 	#four{
 		/*background-color: #bf94e4;*/
-		background-color: #ffffff;
+		background-color: rgb(255,255,255,0.9);
 		/*background-color: #6495ED;*/
 		/*color: rgba(0,0,0);*/
 	}
@@ -4079,9 +4083,15 @@ input, select, textarea {
 		background-color: rgb(100,149,237,0.9);
 	}
 
+	#within_two{
+		background-color: rgb(205,191,206); /* rgb(191,148,228) = # bf94e4*/
+	}
+
 	#footer{
 		background-color: rgba(65, 41, 128);
 	}
+
+
 
 	/*.link{
 		color: #0000008c;
@@ -4513,7 +4523,8 @@ input, select, textarea {
 		-webkit-transition: border-color 0.2s ease;
 		-ms-transition: border-color 0.2s ease;*/
 		transition: border-color 0.2s ease;
-		background-color: #b39eb5;
+		/*background-color: #b39eb5;*/
+		background-color:rgb(191,148,228,0.9);
 		/*border: solid 1px !important;*/
 		border: none;
 		border-color: #ffffff; !important;
