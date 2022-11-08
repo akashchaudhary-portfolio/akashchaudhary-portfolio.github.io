@@ -4179,10 +4179,11 @@ input, select, textarea {
 /* Position text in the middle of the page/image */
 .bg-textt {
 	/*height: 28%;*/
-	height: 13rem;
+	height: 14.5vw;
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0, 0.5); /* Black w/opacity/see-through */
-  font-size: 1em;
+  /*font-size: 1em;*/
+  font-size: 1.5vw;
   font-weight: normal;
   color: white;
   border: 3px solid #f1f1f1;
@@ -4198,10 +4199,11 @@ input, select, textarea {
 
 .bg-texttv {
 	/*height: 15%;*/
-	height: 7rem;
+	height: 7.5vw;
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0, 0.5); /* Black w/opacity/see-through */
-  font-size: 1em;
+  /*font-size: 1em;*/
+  font-size: 1.5vw;
   font-weight: normal;
   color: white;
   border: 3px solid #f1f1f1;
