@@ -4125,9 +4125,6 @@ input, select, textarea {
 		color: #0000008c;
 	}*/
 
-
-
-
 .bg-imagee {
 
   /* Add the blur effect */
@@ -4155,7 +4152,7 @@ input, select, textarea {
   color: white;
   border: 3px solid #f1f1f1;
   position: absolute;
-  top: 60%;
+  top: 25vw;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -4175,7 +4172,7 @@ input, select, textarea {
   color: white;
   border: 3px solid #f1f1f1;
   position: absolute;
-  top: 60%;
+  top: 25vw;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
