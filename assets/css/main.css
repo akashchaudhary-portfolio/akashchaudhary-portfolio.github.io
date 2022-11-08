@@ -1965,7 +1965,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			border-color: rgba(255, 255, 255, 0.55) !important;
+			border-color: rgba(255, 255, 255) !important;
 		}
 
 			input[type="submit"]:hover:after,
@@ -1973,7 +1973,9 @@ input, select, textarea {
 			input[type="button"]:hover:after,
 			button:hover:after,
 			.button:hover:after {
-				opacity: 0.05;
+				background-color: rgba(65, 41, 128);
+				/*background-color: rgba(52,32,102);*/
+				opacity: 0.15;
 				-moz-transform: scale(1);
 				-webkit-transform: scale(1);
 				-ms-transform: scale(1);
@@ -1986,6 +1988,7 @@ input, select, textarea {
 			button:hover:active,
 			.button:hover:active {
 				border-color: #ffffff !important;
+				cursor: wait;
 			}
 
 				input[type="submit"]:hover:active:after,
@@ -4345,7 +4348,7 @@ input, select, textarea {
 					opacity: 0.1;
 				}*/
 
-/* Button */
+/* Button2*/
 
 	input[type="submit"],
 	input[type="reset"],
@@ -4360,7 +4363,8 @@ input, select, textarea {
 		-webkit-transition: border-color 0.2s ease;
 		-ms-transition: border-color 0.2s ease;
 		transition: border-color 0.2s ease;
-		background-color: #bf94e4;;
+		/*background-color: #bf94e4;*/
+		background-color: rgb(100,149,237);
 		border: solid 1px !important;
 		border-color: rgba(255, 255, 255, 0.15) !important;
 		border-radius: 3em;
@@ -4474,7 +4478,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button2:hover {
-			border-color: rgba(255, 255, 255, 0.55) !important;
+			border-color: rgba(0,0,0) !important;
 		}
 
 			input[type="submit"]:hover:after,
@@ -4482,7 +4486,8 @@ input, select, textarea {
 			input[type="button"]:hover:after,
 			button:hover:after,
 			.button2:hover:after {
-				opacity: 0.05;
+				background-color: rgba(0,0,255);
+				opacity: 0.15;
 				-moz-transform: scale(1);
 				-webkit-transform: scale(1);
 				-ms-transform: scale(1);
@@ -4495,6 +4500,7 @@ input, select, textarea {
 			button:hover:active,
 			.button2:hover:active {
 				border-color: #ffffff !important;
+				cursor: s-resize;
 			}
 
 				input[type="submit"]:hover:active:after,
@@ -4506,7 +4512,7 @@ input, select, textarea {
 				}
 
 
-/* Button */
+/* Button3 */
 
 	input[type="submit"],
 	input[type="reset"],
