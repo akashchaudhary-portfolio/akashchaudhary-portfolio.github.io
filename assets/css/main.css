@@ -168,7 +168,8 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
-		color: inherit;
+		/*color: inherit;*/
+		color: rgba(0, 0, 0,0.55);
 		text-decoration: none;
 	}
 
@@ -4177,10 +4178,11 @@ input, select, textarea {
 
 /* Position text in the middle of the page/image */
 .bg-textt {
-	height: 28%;
-	height: 14rem;
+	/*height: 28%;*/
+	height: 13rem;
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0, 0.5); /* Black w/opacity/see-through */
+  font-size: 1em;
   font-weight: normal;
   color: white;
   border: 3px solid #f1f1f1;
@@ -4199,6 +4201,7 @@ input, select, textarea {
 	height: 7rem;
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0, 0.5); /* Black w/opacity/see-through */
+  font-size: 1em;
   font-weight: normal;
   color: white;
   border: 3px solid #f1f1f1;
