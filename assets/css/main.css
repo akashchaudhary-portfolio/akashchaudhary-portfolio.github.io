@@ -4155,7 +4155,7 @@ input, select, textarea {
   color: white;
   border: 3px solid #f1f1f1;
   position: absolute;
-  top: 25vw;
+  top: 40vw;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -4175,7 +4175,7 @@ input, select, textarea {
   color: white;
   border: 3px solid #f1f1f1;
   position: absolute;
-  top: 25vw;
+  top: 40vw;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
