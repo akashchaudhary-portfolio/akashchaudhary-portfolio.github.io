@@ -167,9 +167,9 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
-		/*color: inherit;*/
-		color: rgba(0, 0, 0,0.55);
+		border-bottom: dotted 1px rgba(0,0,0);
+		color: rgb(0,0,0);
+		/*color: rgba(0, 0, 0,0.55);*/
 		text-decoration: none;
 	}
 
@@ -1851,7 +1851,8 @@ input, select, textarea {
 		-webkit-transition: border-color 0.2s ease;
 		-ms-transition: border-color 0.2s ease;
 		transition: border-color 0.2s ease;
-		background-color: rgba(115,82,194,1.00);
+		/*background-color: rgba(115,82,194,1.00);*/
+		background-color: rgb(156,143,220);
 		border: solid 1px !important;
 		border-color: rgba(255, 255, 255, 0.15) !important;
 		border-radius: 3em;
@@ -1965,7 +1966,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			border-color: rgba(255, 255, 255) !important;
+			border-color: rgba(0,0,0) !important;
 		}
 
 			input[type="submit"]:hover:after,
@@ -4066,6 +4067,7 @@ input, select, textarea {
 	#one{
 		/*background-color: #bf94e4;*/
 		background-color: rgb(255,255,255,0.9);
+		background-color: #d7e4fa
 		/*background-color: rgb(100,149,237);*/
 		/*color: rgba(0,0,0);*/
 		
@@ -4098,12 +4100,15 @@ input, select, textarea {
 	#within_one{
 		/*background-color: #bf94e4;*/ 
 		 /*rgb(191,148,228) = # bf94e4*/
-		background-color: rgb(100,149,237);
+		/*background-color: rgb(100,149,237);*/
+		background-color: #c0d4f8
 	}
 
 	#within_onee{
 		/*background-color: rgb(191,148,228,0.9);*/
-		background-color: rgb(100,149,237,0.9);
+		/*background-color: rgb(100,149,237,0.9);*/
+		background-color: #b0c9f6
+		/*cdddf9*/
 	}
 
 	/*#within_four{
@@ -4364,7 +4369,8 @@ input, select, textarea {
 		-ms-transition: border-color 0.2s ease;
 		transition: border-color 0.2s ease;
 		/*background-color: #bf94e4;*/
-		background-color: rgb(100,149,237);
+		/*background-color: rgb(100,149,237);*/
+		background-color: #b0c9f6;
 		border: solid 1px !important;
 		border-color: rgba(255, 255, 255, 0.15) !important;
 		border-radius: 3em;
