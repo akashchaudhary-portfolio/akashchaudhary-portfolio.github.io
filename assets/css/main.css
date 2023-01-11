@@ -4170,8 +4170,8 @@ input, select, textarea {
 }
 
 .bg-texttv {
-	/*height: 15%;*/
-	height: 7.5vw;
+	height: 14.5vw;
+	/*height: 7.5vw;*/
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0, 0.5); /* Black w/opacity/see-through */
   /*font-size: 1em;*/
