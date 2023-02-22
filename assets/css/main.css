@@ -3556,6 +3556,10 @@ ul.action1{
 
 		}
 
+
+	
+
+
 /* Wrapper (main) */
 
 	#sidebar + #wrapper {
@@ -3986,7 +3990,8 @@ ul.action1{
 		background-color: rgba(255, 255, 255);
 		/*color: rgba(0,0,0);*/
 		/*font-family: TimesNewRoman;*/
-		font-family:  Poppins;
+		font-family: Arial, Helvetica, sans-serif;
+		/*font-family:  Poppins;*/
 		
 	}
 
@@ -4142,7 +4147,7 @@ ul.action1{
 
   /* Add the blur effect */
   filter: blur(4px);
-  -webkit-filter: blur(4px);
+  -webkit-filter: blur(2px);
 
   /* Full height */
   height: 100%;
@@ -4154,10 +4159,10 @@ ul.action1{
 }
 
 /* Position text in the middle of the page/image */
-.bg-textt {
+.bg-text {
 	/*height: 28%;*/
 	height: 14.5vw;
-  background-color: rgb(0,0,0); /* Fallback color */
+  /*background-color: rgb(0,0,0);*/ /* Fallback color */
   background-color: rgba(0,0,0, 0.5); /* Black w/opacity/see-through */
   /*font-size: 1em;*/
   font-size: 1.5vw;
@@ -4170,16 +4175,17 @@ ul.action1{
   transform: translate(-50%, -50%);
   z-index: 2;
   width: 80%;
- /* padding: 20px;*/
+  padding-left: 20px;
+  padding-right: 20px;
   text-align: center;
 }
 
-.bg-texttv {
+/*.bg-texttv {
 	height: 14.5vw;
-	/*height: 7.5vw;*/
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.5); /* Black w/opacity/see-through */
-  /*font-size: 1em;*/
+	height: 7.5vw;
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.5);
+  font-size: 1em;
   font-size: 1.5vw;
   font-weight: normal;
   color: white;
@@ -4190,9 +4196,9 @@ ul.action1{
   transform: translate(-50%, -50%);
   z-index: 2;
   width: 80%;
- /* padding: 20px;*/
+  padding: 20px;
   text-align: center;
-}
+}*/
 
 
 
